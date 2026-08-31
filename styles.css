@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600&display=swap');
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+}
+
+
+section {
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1f 1fr;
+    height: 400px;
+
+}
+
+section div {
+    
+    
+}
+
+#B1 {
+    background-color: blueviolet;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+#B2 {
+    background-color: grey;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#B3 {
+    background-color:whitesmoke ;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+#B4 {
+    background-color:whitesmoke ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#B5 {
+    background-color:rgb(74, 74, 74) ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
