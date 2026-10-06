@@ -1,0 +1,1 @@
+A responsive client testimonials page built with HTML and CSS Grid. The layout uses CSS Grid to organize testimonial cards into a clean, structured, and visually balanced design across different screen sizes.
